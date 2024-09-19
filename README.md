@@ -6,7 +6,7 @@
 CultureLens is a web-based app that assesses socio-cultural values and views in multilingual models. It helps users evaluate the performance of large language models (LLMs) and chat tools such as ChatGpt by providing a means to evaluate the multilingual language models through a robust dataset that reflects cultural norms and perspectives from diverse regions.
 
  Technology                                                                                                                                                      
- ![بدون](https://github.com/user-attachments/assets/862831a4-9e01-4628-8294-c3f658090fd9)
+                                                                                                       ![بدون](https://github.com/user-attachments/assets/862831a4-9e01-4628-8294-c3f658090fd9)  
 Launching Instructions 
 
 1.Open  2024-25_GP_10 repository on GitHub.
