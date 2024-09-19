@@ -7,17 +7,11 @@ CultureLens is a web-based app that assesses socio-cultural values and views in 
 
 
 
+ Technology                                                                                                                                                      
+
+ ![بدون](https://github.com/user-attachments/assets/862831a4-9e01-4628-8294-c3f658090fd9)
 
 
-
-
- Technology                                                                                                                                                         ![بدون](https://github.com/user-attachments/assets/1ab9b363-bb86-4152-8ed9-acab82f895ed) 
-
-
-
-
-
- 
 Launching Instructions
 
 Open  2024-25_GP_10 repository on GitHub.
