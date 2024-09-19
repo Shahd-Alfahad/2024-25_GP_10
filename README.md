@@ -10,11 +10,17 @@ Technology
 Launching Instructions
 
 Open  2024-25_GP_10 repository on GitHub.
+
 Click on the code button.
+
 Download .zip file.
+
 Unzip the file.
+
 Open Visual Studio Code.
+
 Click on File > Open > Location of the saved unzipped file then click on Ok.
+
 Add a .env file in the assets folder and include the API keys for both Google and stability.ai, or contact the developer.
-Turn on an Android Emulator or connect an android mobile to your computer using USB.
+
 Run CultureLens Website.
