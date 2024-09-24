@@ -2,7 +2,7 @@
 
 ![CultureLens Logo](https://github.com/user-attachments/assets/71902a33-29f7-4276-bc91-70b3aa42fd5a)
 
-## 📖 Introduction:
+## 📝 Introduction:
 
 **CultureLens** is a web-based application that assesses socio-cultural values and perspectives in multilingual models. It helps users evaluate the performance of large language models (LLMs) and chat tools, such as ChatGPT, by providing a means to assess multilingual language models using a robust dataset reflecting cultural norms from diverse regions.
 
