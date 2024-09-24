@@ -2,7 +2,7 @@
 
 | Name   | Account                                        |
 |--------|-----------------------------------             |
-| Haya Alhawaimel|                                        |
+| Haya Alhawaimel|     @HayaAlhawaimel                                   |
 | Reema Alkhaldi |                                        |
 | Shahd Alfahad  |                                        |
 | Dana Aldawood  |                                        |
