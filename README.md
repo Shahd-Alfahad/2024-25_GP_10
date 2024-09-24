@@ -2,11 +2,11 @@
 
 ![CultureLens Logo](https://github.com/user-attachments/assets/71902a33-29f7-4276-bc91-70b3aa42fd5a)
 
-## 📖 Introduction
+## 📖 Introduction:
 
 **CultureLens** is a web-based application that assesses socio-cultural values and perspectives in multilingual models. It helps users evaluate the performance of large language models (LLMs) and chat tools, such as ChatGPT, by providing a means to assess multilingual language models using a robust dataset reflecting cultural norms from diverse regions.
 
-## 💻 Technology
+## 💻 Technology:
  
 - 🐍 **Python**
 - ☁️ **Firebase**
@@ -16,9 +16,7 @@
 - 🤗 **Hugging Face**
 
 
-![Technology](https://github.com/user-attachments/assets/862831a4-9e01-4628-8294-c3f658090fd9)
-
-## Launching Instructions
+## Launching Instructions:
 
 1. 📁 Open the `2024-25_GP_10` repository on GitHub.
 2. 🖱️ Click on the "Code" button.
@@ -29,7 +27,6 @@
 7. ⚙️ Add a `.env` file in the `assets` folder and include the API keys for both Google and Stability.ai, or contact the developer.
 8. 🚀 Run the CultureLens website.
 
-## Repository Link
-
+## 🔗 Repository Link:
  
 
