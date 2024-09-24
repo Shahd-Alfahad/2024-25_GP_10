@@ -12,15 +12,16 @@
 
 ## Launching Instructions
 
-1. Open the `2024-25_GP_10` repository on GitHub.
-2. Click on the "Code" button.
-3. Download the `.zip` file.
-4. Unzip the file.
-5. Open Visual Studio Code.
-6. Click on **File > Open**, select the location of the unzipped file, then click **OK**.
-7. Add a `.env` file in the `assets` folder and include the API keys for both Google and Stability.ai, or contact the developer.
-8. Run the CultureLens website.
+1. 📁 Open the `2024-25_GP_10` repository on GitHub.
+2. 🖱️ Click on the "Code" button.
+3. 📥 Download the `.zip` file.
+4. 📂 Unzip the file.
+5. 🖥️ Open Visual Studio Code.
+6. 📂 Click on **File > Open**, select the location of the unzipped file, then click **OK**.
+7. ⚙️ Add a `.env` file in the `assets` folder and include the API keys for both Google and Stability.ai, or contact the developer.
+8. 🚀 Run the CultureLens website.
 
+## Repository Link
 
-## Repository link
+ 
 
