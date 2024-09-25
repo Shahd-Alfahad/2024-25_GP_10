@@ -27,6 +27,5 @@
 7. ⚙️ Add a `.env` file in the `assets` folder and include the API keys for both Google and Stability.ai, or contact the developer.
 8. 🚀 Run the CultureLens website.
 
-## 🔗 Repository Link:
- 
+
 
