@@ -16,16 +16,85 @@
 - 🤗 **Hugging Face**
 
 
-## Launching Instructions:
-
-1. 📁 Open the `2024-25_GP_10` repository on GitHub.
-2. 🖱️ Click on the "Code" button.
-3. 📥 Download the `.zip` file.
-4. 📂 Unzip the file.
-5. 🖥️ Open Visual Studio Code.
-6. 📂 Click on **File > Open**, select the location of the unzipped file, then click **OK**.
-7. ⚙️ Add a `.env` file in the `assets` folder and include the API keys for both Google and Stability.ai, or contact the developer.
-8. 🚀 Run the CultureLens website.
+## 🚀 Launching Instructions:
 
 
+### 1. 📥 Download and Install Required Software
+
+1. 💻 **Node.js Installation:**
+   - Go to [https://nodejs.org/](https://nodejs.org/)
+   - Download and install the LTS version
+   - Verify installation: `node --version`
+
+2. 📝 **VS Code Installation (Recommended):**
+   - Download from [https://code.visualstudio.com/](https://code.visualstudio.com/)
+   - Install VS Code
+   - Recommended extensions for React:
+     - ES7 React snippets
+     - Prettier
+     - ESLint
+
+### 2. 🛠️ Project Setup
+
+1. 📁 **Download the Project:**
+   - Download the `.zip` folder
+   - Save it to your preferred location
+
+2. 📂 **Extract the Project:**
+   - Right-click the zip file
+   - Select "Extract All" (Windows) or double-click (Mac)
+   - Choose destination folder
+
+3. 💻 **Open in VS Code:**
+   - Open VS Code
+   - Go to File → Open Folder
+   - Select the extracted project folder
+   - Or use terminal: `code .` in the project directory
+
+4. ⚡ **Open Terminal in VS Code:**
+   - Press `` Ctrl + ` `` (Windows/Linux) or `` Cmd + ` `` (Mac)
+   - Or go to Terminal → New Terminal
+   - Make sure you're in the project directory
+
+5. 📥 **Install Dependencies:**
+```bash
+npm install
+```
+
+6. 🚀 **Start the Project:**
+```bash
+npm start
+```
+
+7. 🌐 **Access the CultureLens Website:**
+   - Opens automatically in your default browser
+   - Or visit `http://localhost:3000`
+
+## 🛠️ Troubleshooting
+
+### ❌ Common Issues and Solutions:
+
+1. 🔍 **"npm not found":**
+   - Restart VS Code
+   - Restart your computer
+   - Reinstall Node.js
+
+2. 🔄 **Installation Errors:**
+   ```bash
+   # Delete these folders/files
+   rm -rf node_modules
+   rm package-lock.json
+   
+   # Try installing again
+   npm install
+   ```
+
+
+
+## ❓ Need Help?
+
+- 📚 Check the official [React documentation](https://reactjs.org/)
+- 🔍 Google any error messages
+- 💬 Open an issue on the project repository
+- 📧 Contact the project authors
 
