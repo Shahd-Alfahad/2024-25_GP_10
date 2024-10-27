@@ -1,0 +1,200 @@
+.homepage {
+  overflow-x: hidden;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  margin-top: 40px;
+  position: relative;
+}
+.map-photo {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  padding: 20px 0;
+  width: 80%;
+  max-width: 1000px;
+  height: auto;
+}
+
+.welcome-text {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #003f5c;
+}
+
+.description-text {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.learn-more-btn {
+  margin: 0.5rem;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #2d5174;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  align-items: center;
+  width: 150px;
+}
+
+.learn-more-btn:hover {
+  background-color: #2a5d77;
+  box-shadow: 0 4px 8px rgba(63, 126,  166,  0.4);
+}
+
+.map-logo {
+  height: 300px;
+  width: auto;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.domains-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+.domain-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(14, 82, 142, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 350px;
+  height: 240px;
+  padding-right: 10px;  
+  font-size: 1rem;
+  color: #5a5a5a; 
+  }
+ 
+  
+   
+  
+  
+ .domain-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(14, 82, 142, 0.2);
+}
+
+  
+  
+ 
+.domain-card h3 {
+  color: #003f5c;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.domain-card h5 {
+  font-size: 18px;
+  color: #474646;
+  }
+ 
+
+ 
+
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin: 100px 0;
+  background-color: #fff;
+  
+}
+
+ p{
+  font-size: 16px;
+  color: #474646;
+  font-weight: bold;
+ }
+.chart:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(14, 82, 142, 0.2);
+}
+
+
+.charts {
+  display: flex;
+  justify-content: space-around;  
+  gap: 50px; /* هذا للتحكم في المسافة بين الرسومات */
+  flex-wrap: wrap;  
+}
+
+.chart {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px 20px; 
+  text-align: center;
+  width: 400px;
+  height: 360px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;  
+}
+
+ 
+
+.doughnut-container, .bar-container {
+  width: 250px !important;  
+  height: 240px !important;   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart canvas {
+  width: 250px !important;  
+  height: 240px !important;  
+}
+
+.chart,h3 {
+  font-size: 12px;  
+   color: #003f5c;  
+  text-align: center;
+  align-items: center; 
+ }
+ h3{
+  margin-top: 20px;
+ }
+
+ 
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .map-logo {
+    animation: rotateLogo infinite 20s linear;
+  }
+}
+
+@keyframes rotateLogo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-center {
+  color: #003f5c;
+}
+ 

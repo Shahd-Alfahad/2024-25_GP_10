@@ -1,0 +1,96 @@
+/* Popup Error Message */
+.error-popup {
+  background-color: #fff;
+  color:  #dc172b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.error-title {
+  font-weight: bold;
+  color: #dc172b;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  margin-bottom: 20px;
+  font-size: 17px ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.error-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.confirm-btn {
+  background-color:  #dc172b;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ 
+.confirm-btn:hover{
+background-color: #ff5c5c;
+}
+.error-tooltip {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 5px;
+  background-color: #ff5c5c;
+  color: #ff5c5c;
+  border: 1px solid #ff5c5c;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+}
+
+.error-tooltip::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent transparent #ff5c5c transparent;
+}
+
+
+/* Success Popup Message */
+.success-popup {
+  background-color: #fff;
+  color: #28a745;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+
+.success-icon {
+  font-size: 48px; 
+  color: #28a745; 
+  margin-bottom: 15px;
+  border-radius: none; 
+}
